@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import AtomButton from '../atoms/AtomButton';
 
-const List = ({ todos, setTodos, completeTodos, setCompleteTodos }) => {
+const List = ({ todos, completeTodos, setCompleteTodos }) => {
   const setTodoHandle = (todo, index) => {
     const completeTodo = todos.splice(index, 1);
     setCompleteTodos([...completeTodos, ...completeTodo])

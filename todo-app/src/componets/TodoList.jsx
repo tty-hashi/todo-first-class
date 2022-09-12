@@ -1,7 +1,5 @@
-import styled from '@emotion/styled';
-import { Button } from '@mui/material';
-import { Box } from '@mui/system'
 import React, { useState } from 'react'
+import { Box } from '@mui/system'
 import CompleteTodos from './molucules/CompleteTodos';
 import InputArea from './molucules/InputArea'
 import List from './molucules/List';

@@ -13,7 +13,7 @@ const CompleteTodos = ({ todos, setTodos, completeTodos, setCompleteTodos }) => 
   const deleteTodoHandle = (todo, index) => {
     console.log(index);
     const newTodos = [...completeTodos];
-    const conpleteTodo = newTodos.splice(index, 1);
+    newTodos.splice(index, 1);
     setCompleteTodos(newTodos);
   }
 
