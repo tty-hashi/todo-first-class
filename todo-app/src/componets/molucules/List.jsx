@@ -5,6 +5,7 @@ const List = ({ todos, completeTodos, setCompleteTodos }) => {
   const setTodoHandle = (todo, index) => {
     const completeTodo = todos.splice(index, 1);
     setCompleteTodos([...completeTodos, ...completeTodo])
+
   }
 
   return (
